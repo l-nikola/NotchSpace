@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>fr</string>
+	<key>CFBundleExecutable</key>
+	<string>NotchSpace</string>
+	<key>CFBundleIdentifier</key>
+	<string>app.notchspace.NotchSpace</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>NotchSpace</string>
+	<key>CFBundleDisplayName</key>
+	<string>NotchSpace</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<!-- Application accessoire : vit dans l'encoche, pas d'icône dans le Dock. -->
+	<key>LSUIElement</key>
+	<true/>
+	<!-- Obligatoire : sans cette clé, le premier Apple Event fait crasher le processus. -->
+	<key>NSAppleEventsUsageDescription</key>
+	<string>NotchSpace lit et pilote la lecture en cours de Spotify et de Google Chrome pour l'afficher dans l'encoche.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>NotchSpace</string>
+	<key>NSSupportsAutomaticTermination</key>
+	<false/>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
