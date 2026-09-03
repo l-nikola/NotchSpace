@@ -16,12 +16,16 @@ final class HoverMonitor {
     var zoneProvider: () -> CGRect = { .zero }
 
     /// Délai avant repli, pour éviter un clignotement quand le curseur frôle un bord.
-    var exitDelay: TimeInterval = 0.18
+    var exitDelay: TimeInterval = 0.08
+
+    /// Délai avant dépliage, pour éviter une ouverture au moindre survol furtif.
+    var enterDelay: TimeInterval = 0.3
 
     private(set) var isInside = false
     private var onChange: (Bool) -> Void
     private var globalMonitor: Any?
     private var localMonitor: Any?
+    private var pendingEnter: DispatchWorkItem?
     private var pendingExit: DispatchWorkItem?
     private var watchdog: Timer?
 
@@ -46,6 +50,8 @@ final class HoverMonitor {
         [globalMonitor, localMonitor].compactMap { $0 }.forEach(NSEvent.removeMonitor)
         globalMonitor = nil
         localMonitor = nil
+        pendingEnter?.cancel()
+        pendingEnter = nil
         pendingExit?.cancel()
         pendingExit = nil
         stopWatchdog()
@@ -54,6 +60,8 @@ final class HoverMonitor {
     /// Force l'état « à l'intérieur » sans attendre un mouvement de souris.
     /// Utile quand un glisser-déposer entre dans l'encoche.
     func forceInside() {
+        pendingEnter?.cancel()
+        pendingEnter = nil
         pendingExit?.cancel()
         pendingExit = nil
         guard !isInside else { return }
@@ -84,22 +92,50 @@ final class HoverMonitor {
         watchdog = nil
     }
 
+    /// Le haut de la zone tombe pile sur le bord de l'écran, et `CGRect.contains` exclut
+    /// ce bord (intervalle semi-ouvert). Quand le curseur est plaqué à fond contre le
+    /// haut, macOS le bloque exactement sur cette valeur, qui se retrouve donc juste en
+    /// dehors de la zone : on élargit légèrement pour l'inclure.
+    private func isMouseInside(_ zone: CGRect) -> Bool {
+        zone.insetBy(dx: -2, dy: -2).contains(NSEvent.mouseLocation)
+    }
+
     private func evaluate() {
-        let inside = zoneProvider().contains(NSEvent.mouseLocation)
-        guard inside != isInside else { return }
+        let inside = isMouseInside(zoneProvider())
 
         if inside {
+            guard !isInside else { return }
             pendingExit?.cancel()
             pendingExit = nil
-            isInside = true
-            startWatchdog()
-            onChange(true)
+            // Entrée différée : on ne déplie que si le curseur est toujours dedans
+            // à l'échéance, pour éviter une ouverture au moindre passage furtif.
+            guard pendingEnter == nil else { return }
+            let work = DispatchWorkItem { [weak self] in
+                guard let self else { return }
+                self.pendingEnter = nil
+                guard self.isMouseInside(self.zoneProvider()) else { return }
+                self.isInside = true
+                self.startWatchdog()
+                self.onChange(true)
+            }
+            pendingEnter = work
+            DispatchQueue.main.asyncAfter(deadline: .now() + enterDelay, execute: work)
         } else {
+            // Le curseur n'est pas dans la zone : toute entrée pas encore validée doit
+            // être annulée ici, sinon elle reste bloquée pour de bon (le curseur n'y
+            // repassera peut-être jamais avant l'échéance).
+            if pendingEnter != nil {
+                pendingEnter?.cancel()
+                pendingEnter = nil
+            }
+            guard isInside else { return }
             // Sortie différée : on ne replie que si le curseur est toujours dehors
             // à l'échéance.
             pendingExit?.cancel()
             let work = DispatchWorkItem { [weak self] in
-                guard let self, !self.zoneProvider().contains(NSEvent.mouseLocation) else { return }
+                guard let self else { return }
+                self.pendingExit = nil
+                guard !self.isMouseInside(self.zoneProvider()) else { return }
                 self.isInside = false
                 self.stopWatchdog()
                 self.onChange(false)

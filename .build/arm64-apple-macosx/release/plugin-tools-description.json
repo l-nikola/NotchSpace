@@ -19,212 +19,212 @@
   "swiftCommands" : {
     "C.NotchSpace-arm64-apple-macosx-release.module" : {
       "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
-      "fileList" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/sources",
-      "importPath" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/Modules",
+      "fileList" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/sources",
+      "importPath" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/AppDelegate.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/AppDelegate.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/AppSettings.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/AppSettings.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/NotchSpaceApp.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/NotchSpaceApp.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/Services.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/Services.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/StatusItemController.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/StatusItemController.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/Theme.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/Theme.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/AppleScriptRunner.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/AppleScriptRunner.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/ArtworkCache.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/ArtworkCache.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/ChromeSource.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/ChromeSource.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaController.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaController.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaViews.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaViews.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MiniPlayer.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MiniPlayer.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/NowPlaying.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/NowPlaying.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/SpotifySource.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/SpotifySource.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/CollapsedContent.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/CollapsedContent.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/ExpandedContent.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/ExpandedContent.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/HoverMonitor.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/HoverMonitor.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchController.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchController.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchGeometry.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchGeometry.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchOutlineShape.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchOutlineShape.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchRootView.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchRootView.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchState.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchState.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/PlaceholderPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/PlaceholderPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroEngine.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroEngine.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroRing.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroRing.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/SessionEffects.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/SessionEffects.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Settings/SettingsView.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Settings/SettingsView.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Settings/SettingsWindowController.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Settings/SettingsWindowController.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Shelf/ShelfPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Shelf/ShelfPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Shelf/ShelfStore.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Shelf/ShelfStore.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/System/LaunchAtLogin.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/System/LaunchAtLogin.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/System/SystemSettings.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/System/SystemSettings.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/DebugLog.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/DebugLog.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/Diagnostics.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/Diagnostics.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/SelfTest.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/SelfTest.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/sources"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/sources"
         }
       ],
       "isLibrary" : false,
       "moduleName" : "NotchSpace",
-      "moduleOutputPath" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/Modules/NotchSpace.swiftmodule",
+      "moduleOutputPath" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/Modules/NotchSpace.swiftmodule",
       "objects" : [
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/AppDelegate.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/AppSettings.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchSpaceApp.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/Services.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/StatusItemController.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/Theme.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/AppleScriptRunner.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ArtworkCache.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ChromeSource.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaController.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaPanel.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaViews.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MiniPlayer.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NowPlaying.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SpotifySource.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/CollapsedContent.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ExpandedContent.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/HoverMonitor.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchController.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchGeometry.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchOutlineShape.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchPanel.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchRootView.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchState.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PlaceholderPanel.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroEngine.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroPanel.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroRing.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SessionEffects.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsView.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsWindowController.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfPanel.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfStore.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/LaunchAtLogin.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SystemSettings.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/DebugLog.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/Diagnostics.swift.o",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SelfTest.swift.o"
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/AppDelegate.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/AppSettings.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchSpaceApp.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/Services.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/StatusItemController.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/Theme.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/AppleScriptRunner.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ArtworkCache.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ChromeSource.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaController.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaPanel.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaViews.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MiniPlayer.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NowPlaying.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SpotifySource.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/CollapsedContent.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ExpandedContent.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/HoverMonitor.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchController.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchGeometry.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchOutlineShape.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchPanel.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchRootView.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchState.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PlaceholderPanel.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroEngine.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroPanel.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroRing.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SessionEffects.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsView.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsWindowController.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfPanel.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfStore.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/LaunchAtLogin.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SystemSettings.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/DebugLog.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/Diagnostics.swift.o",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SelfTest.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -238,7 +238,7 @@
         "-DSWIFT_PACKAGE",
         "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
         "-module-cache-path",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/ModuleCache",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/ModuleCache",
         "-parseable-output",
         "-Xfrontend",
         "-entry-point-function-name",
@@ -266,207 +266,207 @@
         "-package-name",
         "notchspace"
       ],
-      "outputFileMapPath" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/output-file-map.json",
+      "outputFileMapPath" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/AppDelegate.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/AppDelegate.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/AppSettings.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/AppSettings.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchSpaceApp.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchSpaceApp.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/Services.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/Services.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/StatusItemController.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/StatusItemController.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/Theme.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/Theme.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/AppleScriptRunner.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/AppleScriptRunner.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ArtworkCache.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ArtworkCache.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ChromeSource.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ChromeSource.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaController.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaController.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaViews.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaViews.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MiniPlayer.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MiniPlayer.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NowPlaying.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NowPlaying.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SpotifySource.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SpotifySource.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/CollapsedContent.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/CollapsedContent.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ExpandedContent.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ExpandedContent.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/HoverMonitor.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/HoverMonitor.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchController.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchController.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchGeometry.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchGeometry.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchOutlineShape.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchOutlineShape.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchRootView.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchRootView.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchState.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchState.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PlaceholderPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PlaceholderPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroEngine.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroEngine.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroRing.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroRing.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SessionEffects.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SessionEffects.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsView.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsView.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsWindowController.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsWindowController.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfStore.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfStore.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/LaunchAtLogin.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/LaunchAtLogin.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SystemSettings.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SystemSettings.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/DebugLog.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/DebugLog.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/Diagnostics.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/Diagnostics.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SelfTest.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SelfTest.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/Modules/NotchSpace.swiftmodule"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/Modules/NotchSpace.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/AppDelegate.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/AppSettings.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/NotchSpaceApp.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/Services.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/StatusItemController.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/Theme.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/AppleScriptRunner.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/ArtworkCache.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/ChromeSource.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaController.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaPanel.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaViews.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MiniPlayer.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/NowPlaying.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/SpotifySource.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/CollapsedContent.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/ExpandedContent.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/HoverMonitor.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchController.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchGeometry.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchOutlineShape.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchPanel.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchRootView.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchState.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/PlaceholderPanel.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroEngine.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroPanel.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroRing.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/SessionEffects.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Settings/SettingsView.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Settings/SettingsWindowController.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Shelf/ShelfPanel.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Shelf/ShelfStore.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/System/LaunchAtLogin.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/System/SystemSettings.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/DebugLog.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/Diagnostics.swift",
-        "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/SelfTest.swift"
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/AppDelegate.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/AppSettings.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/NotchSpaceApp.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/Services.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/StatusItemController.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/Theme.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/AppleScriptRunner.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/ArtworkCache.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/ChromeSource.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaController.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaPanel.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaViews.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MiniPlayer.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/NowPlaying.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/SpotifySource.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/CollapsedContent.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/ExpandedContent.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/HoverMonitor.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchController.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchGeometry.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchOutlineShape.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchPanel.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchRootView.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchState.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/PlaceholderPanel.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroEngine.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroPanel.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroRing.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/SessionEffects.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Settings/SettingsView.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Settings/SettingsWindowController.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Shelf/ShelfPanel.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Shelf/ShelfStore.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/System/LaunchAtLogin.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/System/SystemSettings.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/DebugLog.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/Diagnostics.swift",
+        "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/SelfTest.swift"
       ],
-      "tempsPath" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build",
+      "tempsPath" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build",
       "wholeModuleOptimization" : true
     }
   },
@@ -481,46 +481,46 @@
       "-package-name",
       "notchspace",
       "-c",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/AppDelegate.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/AppSettings.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/NotchSpaceApp.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/Services.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/StatusItemController.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/Theme.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/AppleScriptRunner.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/ArtworkCache.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/ChromeSource.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaController.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaPanel.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaViews.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MiniPlayer.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/NowPlaying.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/SpotifySource.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/CollapsedContent.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/ExpandedContent.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/HoverMonitor.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchController.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchGeometry.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchOutlineShape.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchPanel.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchRootView.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchState.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/PlaceholderPanel.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroEngine.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroPanel.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroRing.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/SessionEffects.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Settings/SettingsView.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Settings/SettingsWindowController.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Shelf/ShelfPanel.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Shelf/ShelfStore.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/System/LaunchAtLogin.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/System/SystemSettings.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/DebugLog.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/Diagnostics.swift",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/SelfTest.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/AppDelegate.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/AppSettings.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/NotchSpaceApp.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/Services.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/StatusItemController.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/Theme.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/AppleScriptRunner.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/ArtworkCache.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/ChromeSource.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaController.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaPanel.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaViews.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MiniPlayer.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/NowPlaying.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/SpotifySource.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/CollapsedContent.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/ExpandedContent.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/HoverMonitor.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchController.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchGeometry.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchOutlineShape.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchPanel.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchRootView.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchState.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/PlaceholderPanel.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroEngine.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroPanel.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroRing.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/SessionEffects.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Settings/SettingsView.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Settings/SettingsWindowController.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Shelf/ShelfPanel.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Shelf/ShelfStore.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/System/LaunchAtLogin.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/System/SystemSettings.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/DebugLog.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/Diagnostics.swift",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/SelfTest.swift",
       "-I",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/Modules",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/Modules",
       "-target",
       "arm64-apple-macosx14.0",
       "-whole-module-optimization",
@@ -532,7 +532,7 @@
       "-DSWIFT_PACKAGE",
       "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
       "-module-cache-path",
-      "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/ModuleCache",
+      "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/ModuleCache",
       "-parseable-output",
       "-Xfrontend",
       "-entry-point-function-name",
@@ -580,7 +580,7 @@
     }
   },
   "writeCommands" : {
-    "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/sources" : {
+    "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -589,160 +589,160 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/AppDelegate.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/AppDelegate.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/AppSettings.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/AppSettings.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/NotchSpaceApp.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/NotchSpaceApp.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/Services.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/Services.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/StatusItemController.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/StatusItemController.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/App/Theme.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/App/Theme.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/AppleScriptRunner.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/AppleScriptRunner.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/ArtworkCache.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/ArtworkCache.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/ChromeSource.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/ChromeSource.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaController.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaController.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MediaViews.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MediaViews.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/MiniPlayer.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/MiniPlayer.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/NowPlaying.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/NowPlaying.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Media/SpotifySource.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Media/SpotifySource.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/CollapsedContent.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/CollapsedContent.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/ExpandedContent.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/ExpandedContent.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/HoverMonitor.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/HoverMonitor.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchController.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchController.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchGeometry.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchGeometry.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchOutlineShape.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchOutlineShape.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchRootView.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchRootView.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/NotchState.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/NotchState.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Notch/PlaceholderPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Notch/PlaceholderPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroEngine.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroEngine.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/PomodoroRing.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/PomodoroRing.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Pomodoro/SessionEffects.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Pomodoro/SessionEffects.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Settings/SettingsView.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Settings/SettingsView.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Settings/SettingsWindowController.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Settings/SettingsWindowController.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Shelf/ShelfPanel.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Shelf/ShelfPanel.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Shelf/ShelfStore.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Shelf/ShelfStore.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/System/LaunchAtLogin.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/System/LaunchAtLogin.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/System/SystemSettings.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/System/SystemSettings.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/DebugLog.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/DebugLog.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/Diagnostics.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/Diagnostics.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/Sources/NotchSpace/Testing/SelfTest.swift"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/Sources/NotchSpace/Testing/SelfTest.swift"
         }
       ],
-      "outputFilePath" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/sources"
+      "outputFilePath" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/sources"
     },
-    "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.product/Objects.LinkFileList" : {
+    "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.product/Objects.LinkFileList" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -751,160 +751,160 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/AppDelegate.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/AppDelegate.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/AppSettings.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/AppSettings.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/AppleScriptRunner.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/AppleScriptRunner.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ArtworkCache.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ArtworkCache.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ChromeSource.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ChromeSource.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/CollapsedContent.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/CollapsedContent.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/DebugLog.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/DebugLog.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/Diagnostics.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/Diagnostics.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ExpandedContent.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ExpandedContent.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/HoverMonitor.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/HoverMonitor.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/LaunchAtLogin.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/LaunchAtLogin.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaController.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaController.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaViews.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MediaViews.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/MiniPlayer.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/MiniPlayer.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchController.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchController.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchGeometry.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchGeometry.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchOutlineShape.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchOutlineShape.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchRootView.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchRootView.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchSpaceApp.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchSpaceApp.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchState.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NotchState.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/NowPlaying.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/NowPlaying.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PlaceholderPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PlaceholderPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroEngine.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroEngine.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroRing.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/PomodoroRing.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SelfTest.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SelfTest.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/Services.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/Services.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SessionEffects.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SessionEffects.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsView.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsView.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsWindowController.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SettingsWindowController.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfPanel.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfPanel.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfStore.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/ShelfStore.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SpotifySource.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SpotifySource.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/StatusItemController.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/StatusItemController.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/SystemSettings.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/SystemSettings.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.build/Theme.swift.o"
+          "name" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.build/Theme.swift.o"
         }
       ],
-      "outputFilePath" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/NotchSpace.product/Objects.LinkFileList"
+      "outputFilePath" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/NotchSpace.product/Objects.LinkFileList"
     },
-    "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt" : {
+    "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt" : {
       "alwaysOutOfDate" : true,
       "inputs" : [
         {
@@ -916,7 +916,7 @@
           "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
         }
       ],
-      "outputFilePath" : "/Users/nikola/Desktop/Code/Perso/notchspace/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+      "outputFilePath" : "/Users/nikola/Desktop/Code/Perso/NotchSpace/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
     }
   }
 }
