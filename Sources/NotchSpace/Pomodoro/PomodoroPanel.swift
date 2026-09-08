@@ -18,18 +18,24 @@ struct PomodoroPanel: View {
     /// les séparer sur toute la largeur donne deux blocs à lire au lieu d'un empilement
     /// centré qui laissait la moitié du panneau vide.
     var body: some View {
-        HStack(spacing: 16) {
-            transport
+        Group {
+            if pomodoro.isAwaitingConfirmation {
+                confirmationBar
+            } else {
+                HStack(spacing: 16) {
+                    transport
 
-            Rectangle()
-                .fill(.white.opacity(0.10))
-                .frame(width: 0.5, height: 28)
+                    Rectangle()
+                        .fill(.white.opacity(0.10))
+                        .frame(width: 0.5, height: 28)
 
-            cycleDots
+                    cycleDots
 
-            Spacer(minLength: 16)
+                    Spacer(minLength: 16)
 
-            presets
+                    presets
+                }
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
@@ -66,6 +72,40 @@ struct PomodoroPanel: View {
                 .help("Tout remettre à zéro")
                 .accessibilityLabel("Tout remettre à zéro")
                 .disabled(!pomodoro.isActive)
+        }
+    }
+
+    // MARK: Confirmation
+
+    /// Remplace toute la ligne pendant qu'une phase est armée : rester concentré
+    /// jusqu'à ce qu'on soit prêt ne doit pas grignoter la pause qui suit, donc rien
+    /// ne compte à rebours tant que ce bouton n'a pas été pressé.
+    private var confirmationBar: some View {
+        HStack(spacing: 10) {
+            Button {
+                withAnimation(.reduced(.easeInOut(duration: 0.18))) { pomodoro.start() }
+            } label: {
+                HStack(spacing: 8) {
+                    Image(systemName: "play.fill")
+                        .font(.system(size: 12, weight: .semibold))
+                    Text("Commencer : \(pomodoro.phase.label)")
+                        .font(.system(size: 13, weight: .semibold, design: .rounded))
+                }
+                .foregroundStyle(.black)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 9)
+                .background { Capsule().fill(pomodoro.phase.accent) }
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel("Commencer la phase : \(pomodoro.phase.label)")
+
+            CircleButton(symbol: "forward.end.fill", size: 26) { pomodoro.skip() }
+                .help("Passer cette phase")
+                .accessibilityLabel("Passer cette phase")
+
+            CircleButton(symbol: "arrow.counterclockwise", size: 26) { pomodoro.reset() }
+                .help("Tout remettre à zéro")
+                .accessibilityLabel("Tout remettre à zéro")
         }
     }
 

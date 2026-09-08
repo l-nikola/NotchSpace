@@ -16,7 +16,7 @@ final class AppSettings: ObservableObject {
         shortBreakMinutes = defaults.value(forKey: Key.shortBreakMinutes) as? Int ?? 5
         longBreakMinutes = defaults.value(forKey: Key.longBreakMinutes) as? Int ?? 15
         pomodorosBeforeLongBreak = defaults.value(forKey: Key.pomodorosBeforeLongBreak) as? Int ?? 4
-        autoStartNextSession = defaults.value(forKey: Key.autoStartNextSession) as? Bool ?? true
+        autoStartNextSession = defaults.value(forKey: Key.autoStartNextSession) as? Bool ?? false
         playSoundOnSessionEnd = defaults.value(forKey: Key.playSoundOnSessionEnd) as? Bool ?? true
         endSoundName = defaults.string(forKey: Key.endSoundName) ?? "Submarine"
         postNotificationOnSessionEnd = defaults.value(forKey: Key.postNotificationOnSessionEnd) as? Bool ?? false

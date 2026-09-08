@@ -6,7 +6,7 @@ import UserNotifications
 ///
 /// Isolé du moteur pour que celui-ci reste du calcul pur et testable.
 @MainActor
-final class SessionEffects: ObservableObject {
+final class SessionEffects: NSObject, ObservableObject, UNUserNotificationCenterDelegate {
 
     /// Refusée alors que le réglage est actif : sans ce signal, la case cochée dans
     /// les préférences ne produit jamais rien, sans qu'aucune explication n'apparaisse
@@ -18,6 +18,17 @@ final class SessionEffects: ObservableObject {
 
     init(settings: AppSettings) {
         self.settings = settings
+        super.init()
+        // Sans délégué, UNUserNotificationCenter avale silencieusement toute
+        // notification tant que l'app est au premier plan — exactement le cas ici,
+        // le panneau de l'encoche restant actif pendant qu'on travaille.
+        UNUserNotificationCenter.current().delegate = self
+    }
+
+    nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                             willPresent notification: UNNotification,
+                                             withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.banner, .list])
     }
 
     func attach(to engine: PomodoroEngine) {

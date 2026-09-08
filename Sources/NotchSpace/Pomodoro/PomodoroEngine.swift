@@ -45,6 +45,10 @@ final class PomodoroEngine: ObservableObject {
     @Published private(set) var phaseDuration: TimeInterval = 0
     /// Pomodoros de travail terminés depuis le début du cycle.
     @Published private(set) var completedPomodoros = 0
+    /// La phase suivante est armée (durée pleine chargée) mais attend un démarrage
+    /// explicite : le compte à rebours ne tourne pas tant que l'utilisateur n'a pas
+    /// confirmé, pour ne pas grignoter la pause pendant qu'il termine ce qu'il fait.
+    @Published private(set) var isAwaitingConfirmation = false
 
     /// Appelé quand une phase se termine — pour le son et la notification.
     var onPhaseEnded: ((PomodoroPhase, PomodoroPhase) -> Void)?
@@ -102,6 +106,7 @@ final class PomodoroEngine: ObservableObject {
         guard !isRunning, phase != .idle, remaining > 0 else { return }
         endDate = clock.now.addingTimeInterval(remaining)
         isRunning = true
+        isAwaitingConfirmation = false
         startTicker()
     }
 
@@ -119,6 +124,7 @@ final class PomodoroEngine: ObservableObject {
         remaining = 0
         phaseDuration = 0
         completedPomodoros = 0
+        isAwaitingConfirmation = false
         if previous != .idle {
             onPhaseEnded?(previous, .idle)
         }
@@ -139,6 +145,7 @@ final class PomodoroEngine: ObservableObject {
         remaining = duration
         endDate = clock.now.addingTimeInterval(duration)
         isRunning = true
+        isAwaitingConfirmation = false
         startTicker()
     }
 
@@ -180,6 +187,7 @@ final class PomodoroEngine: ObservableObject {
             phaseDuration = duration(for: next)
             remaining = phaseDuration
             isRunning = false
+            isAwaitingConfirmation = true
         }
     }
 
